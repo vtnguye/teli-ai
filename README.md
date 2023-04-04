@@ -1,2 +1,2 @@
-# teli-ai
-TELI AI
+# TELI AI
+Cold calling bot
