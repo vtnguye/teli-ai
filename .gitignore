@@ -197,6 +197,6 @@ pyvenv.cfg
 pip-selfcheck.json
 
 #Testing audios and results
-asset/testing-audio/
+asset/testing_audio/*
 
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,virtualenv
