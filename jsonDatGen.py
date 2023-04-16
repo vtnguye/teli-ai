@@ -1,3 +1,5 @@
+import os
+
 def generate_output(filename):
     #change the directory
     input_file = f"C://Users//nbmin//Documents//Python Scripts//testSuccess//{filename}"
