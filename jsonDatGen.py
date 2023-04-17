@@ -1,9 +1,11 @@
 import os
 
+classifications = ['/do_not_call','/not_interested','/successful_sale']
+data_path = './asset/testing_result'
+
 def generate_output(filename):
-    current_dir = os.getcwd()
     # join the current directory with the filename
-    input_file = os.path.join(current_dir, filename)
+    input_file = os.path.join(data_path, filename)
     # get the parent directory name (which is the folder name containing the input file)
     folder_name = os.path.basename(os.path.dirname(input_file))
     output = {}
@@ -35,14 +37,19 @@ def generate_output(filename):
     output["completion"] = completion
     return output
 #change the directory based on computer
-directory = "C://Users//nbmin//Documents//Python Scripts//testSuccess"
-txt_files = []
-
-for filename in os.listdir(directory):
-    if filename.endswith(".txt"):
-        txt_files.append(filename)
-
 output_file = []
+
+# loop through each classification
+for classification in classifications:
+    # set the directory to the current classification
+    directory = os.path.join(data_path, classification)
+    txt_files = []
+
+    # loop through each file in the directory
+    for filename in os.listdir(directory):
+        if filename.endswith(".txt"):
+            txt_files.append(filename)
+
 
 for filename in txt_files:
     output = generate_output(filename)
