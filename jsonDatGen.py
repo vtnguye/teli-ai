@@ -1,8 +1,11 @@
 import os
 
 def generate_output(filename):
-    #change the directory
-    input_file = f"C://Users//nbmin//Documents//Python Scripts//testSuccess//{filename}"
+    current_dir = os.getcwd()
+    # join the current directory with the filename
+    input_file = os.path.join(current_dir, filename)
+    # get the parent directory name (which is the folder name containing the input file)
+    folder_name = os.path.basename(os.path.dirname(input_file))
     output = {}
 
     with open(input_file, "r") as f:
@@ -12,7 +15,15 @@ def generate_output(filename):
 
     prompt = "You: [INITIATE_CALL]\n"
     #change the completion to match certain file group "sucess", "not interested" etc...
-    completion = "[SUCCESSFUL_SALE]"
+    completion = ""
+    
+    if folder_name == "success":
+        completion = "[SUCCESSFUL_SALE]"
+    elif folder_name == "not_interested":
+        completion = "[NOT_INTERESTED]"
+    else:
+        completion = "[DO_NOT_CALL]"
+        
 
     for i in range(0, len(text_lines) - 1, 2):
         prompt += f"Customer: {text_lines[i]}\n"
@@ -22,7 +33,6 @@ def generate_output(filename):
 
     output["prompt"] = prompt
     output["completion"] = completion
-
     return output
 #change the directory based on computer
 directory = "C://Users//nbmin//Documents//Python Scripts//testSuccess"
