@@ -1,6 +1,6 @@
 import os
 
-classifications = ['/do_not_call','/not_interested','/successful_sale']
+classifications = ['/do_not_call','/interested','/not_interested','/successful_sale','wrong_number']
 data_path = './asset/testing_result'
 
 def generate_output(filename):
@@ -23,6 +23,10 @@ def generate_output(filename):
         completion = "[SUCCESSFUL_SALE]"
     elif folder_name == "not_interested":
         completion = "[NOT_INTERESTED]"
+    elif folder_name == "interested":
+        completion = "[INTERESTED]"
+    elif folder_name = "wrong_number"
+        completion = "[WRONG_NUMBER]"
     else:
         completion = "[DO_NOT_CALL]"
         
