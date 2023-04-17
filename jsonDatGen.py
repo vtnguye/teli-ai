@@ -17,7 +17,7 @@ def generate_output(filename):
     #change the completion to match certain file group "sucess", "not interested" etc...
     completion = ""
     
-    if folder_name == "success":
+    if folder_name == "successful_sale":
         completion = "[SUCCESSFUL_SALE]"
     elif folder_name == "not_interested":
         completion = "[NOT_INTERESTED]"
