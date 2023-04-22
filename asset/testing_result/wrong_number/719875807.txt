@@ -1,7 +1,5 @@
-Hello Hello Hello
-hi, I'm my speaking with Larry
-No,
-oh
-You don't live on the property on Melvin Avenue in Rochester?
-No, I must have the wrong number.
-Sorry about that
+Hello, Hello, Hello 
+Hi, I'm speaking with Larry? 
+No, you don't live on the property on Melvin Avenue in Rochester.
+No, I must have the wrong number. 
+Sorry about that.
