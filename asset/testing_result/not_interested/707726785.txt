@@ -1,8 +1,12 @@
-Hello?
-Hi, are you the property owner on Brooklyn Drive in Troy?
-What? Who is this?
-My name is Emilio, I came across this property and I was wondering if you were interested in selling it for cash?
-No, I am not...Well, how much do you think these properties are worth here?
-Well, I can't give you a full cash offer without taking a look at the property in person, but I can give you a range from $275,000 to $300,000.
-Oh, no, I can get more than that.
-Alright, well thank you for your time
+Customer: Hello? Hello?
+AI: Hi, are you the property owner on Brooklyn Drive in Troy?
+Customer: What? Who is this?
+AI: My stickle Mary?
+Customer: Yeah, what, who is this?
+AI: Yeah, my name is Emilio, I came across this property and I was wondering if you were interested in selling it for cash?
+Customer: No, I am not.
+AI: Well, how much do you think these properties are worth here?
+Customer: Well, I can give you a full cash offer. I can give you a range as of right now from $275,000 to $300,000.
+AI: Oh, no, I can't get more than that.
+Customer: Alright, thanks for calling.
+AI: I'm in the hospital, I don't...

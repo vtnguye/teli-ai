@@ -1,5 +1,4 @@
-Hello, yes
-I hear the property on Linwood Avenue in East Point
-Why, sir?
-Well, I came across this property and I was trying to see if you're interested in selling it for cash.
+Customer: Hello, yes
+AI: I hear the property on on Linwood Avenue in East Point why sir
+Customer: Well, I came across this property and I was trying to see if you're interested in selling it for cash.
 No, I'm not

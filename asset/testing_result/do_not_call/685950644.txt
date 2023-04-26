@@ -1,11 +1,8 @@
-Hello? 
-Hi, I'm looking for Christopher Raleigh. 
-He's not here. 
-Oh, he's not there at the moment. 
-Okay, well, I'm just a local homebuyer in the area. 
-Just calling to see if you might be interested in selling the property at Granada Drive. 
-No, no, no. We're not selling any property. 
-I wish you people would stop calling us and give us another call. 
-Yes, ma'am. 
-Okay, I'll put you on my do not call list. 
-Just a little bit.
+Customer: Hello? Hello? 
+AI: Hi, I'm looking for Christopher Raleigh. 
+Customer: He's not here. 
+AI: Oh, he's not there at the moment. 
+AI: Okay, well, I'm just a local homebuyer in the area. Just calling to see if you might be interested in selling the property at Granada Drive. 
+Customer: No, no, no. We're not selling any property. I wish you people would stop calling us and give us another call. 
+AI: Yes, ma'am. Yes, ma'am. Okay, I'll put you on my do not call list. 
+Customer: Just a little bit.

@@ -1,14 +1,13 @@
-Hello?
-Yes?
-Hi mister, are you the property owner on 105 Wendellwood Drive in Pontiac?
-No, that's my ex-husband, why?
-Okay, I'm just calling to see if he might be interested in selling the property for a cash offer on the home.
-I can tell you right now, absolutely not.
-No. That is a house he will die in.
-Okay, are there any properties that you might own or family or friends that might be looking to sell their property in the future?
-No.
-Okay then, you have a good day.
-And can you please have your room moved?
-Just come to call us.
-Yes ma'am, take care.
-Thank you.
+Customer: Hello?
+Customer: Yes?
+AI: Hi mister, are you the property owner on 105 Wendellwood Drive in Pontiac?
+Customer: No, that's my ex-husband, why?
+AI: Okay, I'm just calling to see if he might be interested in selling the property for a cash offer on the home.
+Customer: I can tell you right now, absolutely not. No. That is a house he will die in.
+AI: Okay, are there any properties that you might own or family or friends that might be looking to sell their property in the future?
+Customer: No.
+AI: Okay then, you have a good day. 
+Customer: And can you please have your room moved?
+AI: Just come to call us.
+Customer: Yes ma'am, take care. 
+AI: Thank you.

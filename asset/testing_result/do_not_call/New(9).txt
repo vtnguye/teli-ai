@@ -1,4 +1,5 @@
-Hello?
-Hi, are you the driver on Lombrecht Avenue in East Point?
-No man, no.
-Take my number off your caller list.
+Customer: Hello? 
+AI: Hello?
+Customer: Hi, are you the driver on Lombrecht Avenue in East Point? 
+AI: No man, no. 
+Customer: Take my number off your caller list.
