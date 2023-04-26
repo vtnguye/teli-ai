@@ -1,0 +1,10 @@
+Customer: Hello?
+AI: Hi, I just wanted to give you a call because I was wondering if you live on this property, Valdosta Circle?
+Customer: It's my property, but I don't want to sell it. 
+AI: Oh, not even for cash?
+Customer: No, no, not even for cash. 
+AI: Do you have any other properties you have that you'd be interested in selling?
+Customer: No.
+AI: No, not for cash.
+Customer: No, sir, I don't. 
+AI: And actually, if you could remove me from your list, I would appreciate that.

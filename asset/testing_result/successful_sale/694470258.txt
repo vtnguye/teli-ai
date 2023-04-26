@@ -1,19 +1,28 @@
-Hello?
-Yes.
-Why are you asking that?
-Hold on, hold on a second. I can't hear you, Dad.
-Well, I can't give you a dead offer, but I can give you a range.
-Okay, what's the range?
-Okay, I understand.
-Yeah, so?
-So, do you have like, is there any issues they can tell me about the house? Like when it comes to like problems and stuff like that?
-Caretaker?
-I know that he is. I believe that he is interested. That's why I said call back tomorrow at 3.
-Okay, I appreciate your time and just let him know or if you're there as well, just know there will be a different number calling you.
-And it's going to be my partner.
-Okay, thank you. What's your name?
-Miss White.
-Miss White?
-All right. Thank you for your time.
-Bye-bye.
-See you this way out.
+AI: Hello?
+Customer: Hello, are you the homeowner of 216 Elm Street in Pontiac?
+AI: Yes. Okay, by any chance are you interested in selling the property for cash?
+Customer: Why are you asking that?
+AI: Well, if you're interested. If not, then no worries.
+Customer: Hold on, hold on a second. I can't hear you, Dad. What kind of offer are you giving?
+AI: Well, I can't give you a dead offer, but I can give you a range.
+Customer: Okay, what's the range?
+AI: It could be, so depending on how much renovation your house needs, it could be between $15,000 and all the way up to like $58,000. That's the range.
+Customer: Okay. So my address now, you call back tomorrow about 3 o'clock?
+AI: Okay, uh, I could do that for you, yeah. It will be from some other guy's number. It's going to be my partner's number if that's okay with you.
+Customer: Okay. Is this house on the list? Is this house on the foreclosure list or something?
+AI: Oh, no, no. We're just looking to buy properties and fix them up. 
+Customer: Okay. And sell them for profit. That's the only reason why we're doing this.
+Customer: Okay, I understand. Yeah, so? So, do you have like, is there any issues they can tell me about the house? Like when it comes to like problems and stuff like that?
+AI: Well, I don't know. I'm just a caretaker for him.
+Customer: Caretaker?
+AI: Okay. Uh-huh. And he won't be back until tomorrow. But you wouldn't know if he's interested or do you know if he is interested in selling?
+AI: I know that he is. I believe that he is interested. That's why I said call back tomorrow at 3.
+Customer: Okay, I appreciate your time and just let him know or if you're there as well, just know there will be a different number calling you. And it's going to be my partner.
+AI: Okay.
+Customer: Okay, thank you. What's your name?
+AI: Uh, Ivan.
+Customer: Okay, Ivan. Nice to meet you. What about you?
+AI: Bye-bye. Miss White.
+Customer: Miss White?
+AI: All right. Thank you for your time. Bye-bye.
+Customer: Bye-bye. See you this way out.
