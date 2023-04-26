@@ -1,17 +1,23 @@
-Hello?
-Hi, is this the property owner on Sutherland Ave? 
-Yeah, go ahead.
-I was wondering if you were interested in selling your property for cash?
-Yeah man i have actulaly been trying to get rid of this property for a while now
-thats great. Does the property need any work?
-Yes, it needs work done to the flooring and to the kitchen 
-no problem, I love purchasing properties that need work done to them
-thats awesome
-If you dont mind me asking, what price would you sell it at?
-To be honest, I do not have a price in my mind. I have not looked at what its currenlty worth.
-Thats no problem. Let me do my due dilligence on this property and get back to you. I'd love to do some business with you
-okay sounds great, If i do not answer you during the day its because I am at work 
-When is a good time for me to call you? 
-Later in the evening or on the weekends work best for me. 
-Sounds good. Have a great day 
-Thanks, you as well
+Customer: Hello?
+AI: Yeah?
+Customer: Hiya, is this the property owner on Sutherland Ave?
+AI: Hello?
+Customer: Hello?
+AI: Yeah, go ahead. Is this the property owner on Sutherland Ave in Warren?
+Customer: I'm sorry?
+AI: Do you own the property on Sutherland Ave?
+Customer: Seven...
+AI: What's that six-three-nine? Sutherland Ave, the three-zero-nine-nine-one.
+Customer: No, no, no.
+AI: Do you own any property you're interested in selling?
+Customer: Yeah, why?
+AI: I'm a local real estate investor. I'm interested in buying property. What property are you interested in selling? 
+Customer: Do you have a price in mind?
+AI: Okay, maybe I'm going to call you tomorrow. Because I'm sitting by... I don't want to say, like... 
+Customer: Yeah, yeah.
+AI: I want to sell it to some other people. 
+Customer: Uh-huh, uh-huh.
+AI: When can I call you?
+Customer: Tomorrow?
+AI: Call me tomorrow, yeah. 
+Customer: Okay.

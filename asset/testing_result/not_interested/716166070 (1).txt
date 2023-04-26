@@ -1,8 +1,4 @@
-Hello?
-Yes, hi, are you the property owner on Berkshire Street? 
-I'm not interested in selling my home. 
-Not even for a cash?
-no
-can I ask why? Is this your forever home?
-Yes, I plan to live here until I die 
-okay, have a great day 
+Customer: Hello?
+AI: Yes?
+AI: Yes, hi, are you the prop owner on Berkshire Street? 
+Customer: Yes, I'm not interested in selling.
