@@ -1,3 +1,23 @@
+<<<<<<< main
+Hello, are you the homeowner of 26 West Yale Avenue in Pontiac?
+Yeah, and why?
+Well, I came across your property and was wondering if you were interested in selling it for cash.
+Oh, shit. It all depends, man. The right price is always the right price.
+Well, what's the price that you have in mind for the property?
+I was thinking probably like at least around $130000 to $140000.
+Okay, $130000, $140000. And could you tell me what you have done to the property? Does it need any work?
+Well, that's done to the property. I just basically put new flooring in and just regular maintaining work, you know what I'm saying? Like the paint mess about it. I didn't do no extra whatever, nothing to the house.
+Alright, and are there any problems with the house when it comes to like piping, stuff like that, heating?
+No, no, everything works.
+Thats great, are you currently living at this property or do you have a tenant there?
+I am living here but I plan on moving because I am going through a divorce. My ex-wife and I are going to have to split the house when we sell it. 
+Sorry to hear that man, Just to let you know that I would pay all cash for your property and would save you real estate fees as well as closing costs on the  property as well as all the hassle when it comes to putting the house on the market when you have people going in and out of your house. 
+Alright, that sounds good. Let me talk to her and I will give you a call back tomorrow 
+No problem, do you have time you think you would get back to me?
+Maybe around two o'clock
+Sounds great, I will talk to you soon
+Yup
+=======
 AI: Hello, are you the homeowner of 26 West Yale Avenue in Pontiac?
 Customer: Yeah, and why?
 AI: Well, I came across your property and was wondering if you were interested in selling it for cash.
@@ -27,3 +47,4 @@ AI: It's his company mainly. I'm just helping him along with it. Essentially, we
 Customer: That sounds incredible.
 AI: Yeah. Alright, yeah, no problem. Thanks for your time and hope to have you answered tomorrow.
 Customer: Alright, thanks. Bye-bye.
+>>>>>>> attoma
