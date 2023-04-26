@@ -1,0 +1,10 @@
+openai
+openai-whisper
+pyannote.audio
+langchain
+elevenlabs
+pinecone-client
+pandas
+scipy
+sounddevice
+wavio
