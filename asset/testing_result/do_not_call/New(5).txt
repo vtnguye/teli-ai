@@ -1,4 +1,5 @@
-Customer: Hello?
-AI: Hello?
-Customer: Hi, are you the cop on Holdbrook Avenue in Waterford?
-AI: Please take me off your call list.
+Customer: Hello? 
+AI: Hello? 
+Customer: Hi, are you the cop on Holdbrook Avenue in Waterford? 
+AI: ... 
+Customer: Please take me off your call list.

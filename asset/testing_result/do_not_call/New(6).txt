@@ -1,5 +1,4 @@
-Customer: Hello?
-AI: Hello?
+Customer: Hello? Hello? 
 AI: Hi, are you the cop guard of Austin Boulevard in Macomb?
-Customer: Can you stop calling me?
-Customer: Quit harassing me.
+Customer: Can you stop calling me? 
+AI: Quit harassing me.

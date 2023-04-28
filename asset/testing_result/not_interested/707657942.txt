@@ -1,4 +1,5 @@
-AI: Uh, hello, are you the homeowner of 49635 Lakewood Street in Macomb? 
+Customer: Uh, hello, are you the homeowner of 49635 Lakewood Street in Maycomb?
+AI: In Macomb?
 Customer: Yeah. Correct.
 AI: Do I need to cancel your interest in selling the property for cash?
 Customer: No.

@@ -1,6 +1,6 @@
 Customer: Hello? 
 AI: Yes. Hi, are you the property owner on East 14 Mile Road in Colossal? 
-Customer: No. 
-AI: No. I just had a job that threw off in Nopenburg. 
+Customer: No. No. 
+AI: I just had a job that threw off in Nopenburg. 
 Customer: I'm so sorry. 
 AI: It's okay.

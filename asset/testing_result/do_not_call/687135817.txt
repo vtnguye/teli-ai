@@ -1,8 +1,7 @@
-Customer: Hello? Hello?
-AI: Hi, do you own the property on Ederling Avenue in Pontiac?
-Customer: Yes.
+Customer: Hello? Hello? 
+AI: Hi, do you own the property on Ederling Avenue in Pontiac? 
+Customer: Yes. 
 AI: Hi, my name is Austin. I'm a local real estate investor. I was wondering if you wanted to sell your property for a cash offer?
-Customer: No, would you take me off your calling list?
-AI: Sure thing. Thank you for your time.
-Customer: Thank you.
-Both: Bye.
+Customer: No, would you take me off your calling list? 
+AI: Sure thing. Thank you for your time. 
+Customer: Thank you. Bye.

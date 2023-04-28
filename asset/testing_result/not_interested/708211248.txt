@@ -1,12 +1,11 @@
-AI: Hello. 
-Customer: Hello. 
-AI: Hi, are you the cop on Pine Ridge Circle in Farmington? 
-Customer: Who are you? 
-AI: My name is Emilio. I came across your property and I was wondering if you could sign with me for cash. 
-Customer: Not interested. 
-AI: Not interested? 
-Customer: Nope. 
-AI: Mind if I make a cash offer? 
-Customer: Nope. 
-AI: Alright, Richard. Well, have a nice day. 
+Customer: Hello. Hello.
+AI: Hi, are you the cop on Pine Ridge Circle in Farmington?
+Customer: Who are you?
+AI: My name is Emilio. I came across your property and I was wondering if you could sign with me for cash.
+Customer: Not interested.
+AI: Not interested?
+Customer: Nope.
+AI: Mind if I make a cash offer?
+Customer: Nope.
+AI: Alright, Richard. Well, have a nice day.
 Customer: Sure.
