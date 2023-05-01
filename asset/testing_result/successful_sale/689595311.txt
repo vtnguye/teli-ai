@@ -1,40 +1,46 @@
-AI: Hello. Hello. Hi, are you the property owner on East Harry Avenue?
-Customer: I am. I am.
-AI: Hi, I drove past your property about a week ago and I was wondering if you could just finish my order for cash. Make me an offer.
-Customer: Well, can you tell me a little bit more about the property and what you have done to it?
-AI: It's a five bedroom, two baths. The kitchen and the main bathroom both need remodeling. I have a three car garage, full basement, two lots. I just put a new flooring in there. I have carpet that's a few years old.
-Customer: Yeah, that's about it.
-AI: Okay, and the kitchen?
+AI: Hello.
+Customer: Hello.
+AI: Hi, are you the property owner on East Harry Avenue?
+Customer: I am.
+AI: I am.
+Customer: Hi, I drove past your property about a week ago and I was wondering if you could just finish my order for cash. Make me an offer.
+AI: Well, can you tell me a little bit more about the property and what you have done to it?
+Customer: It's a five bedroom, two baths. The kitchen and the main bathroom both need remodeling. I have a three car garage, full basement, two lots. I just put a new flooring in there. I have carpet that's a few years old.
+AI: Yeah, that's about it. Okay, and the kitchen?
 Customer: Needs updating badly.
-AI: It needs updating badly? Okay. And how about the bathroom?
+AI: Needs updating badly?
+Customer: Okay.
+AI: And how about the bathroom?
 Customer: The bathrooms? They need work.
-AI: They need work as well? Okay. And the bedrooms are fine?
+AI: They need work as well?
+Customer: Okay.
+AI: And the bedrooms are fine?
 Customer: Yeah.
-AI:Okay. Okay. I mean, I see a range right now. I can give you a range. You know, because I need to come and walk the property and see it for myself and I can give you a real offer. But my range is around 160 to 210. That sound about good to you?
+AI: Okay, okay. I mean, I see a range right now. I can give you a range. You know, because I need to come and walk the property and see it for myself and I can give you a real offer. But my range is around 160 to 210. That sound about good to you?
 Customer: Yeah.
 AI: Okay, we do all cash offer too. Okay. Yeah. What's a ballpark in mind for you though? You know, what's in your mind?
 Customer: Right where I want it to be.
 AI: That's where you want it to be?
 Customer: Yep.
-AI: Okay. Yeah. I plan on putting it on the market this week, probably by the end of the week. I'm going to be there on Wednesday if you want to walk through it.
-Customer: Yeah, that would be fun with me. What time is good for you?
-AI: Say two o'clock.
-Customer: Two o'clock?
-AI: Yeah, one or two. Either one.
-Customer: Okay, I want to make sure the numbers are right before I come walk the property. You know what I mean? I don't want to waste your time or my time. You know what I mean? And we do all cash.
+AI: Okay. Yeah. I plan on putting it on the market this week, probably by the end of the week. I'm going to be there on Wednesday if you want to walk through it. 
+Customer: Yeah, that would be fun with me. 
+AI: What time is good for you?
+Customer: Say two o'clock. 
+AI: Two o'clock? 
+Customer: Yeah, one or two. Either one.
+AI: Okay, I want to make sure the numbers are right before I come walk the property. You know what I mean? I don't want to waste your time or my time. You know what I mean? And we do all cash. 
 Customer: Yep.
 AI: I'll save you the real estate fees and closing costs if you want to sell your property and all the people coming in your house, you know.
-Customer: Well, I have a realtor right now, but it's a friend of mine and I do plan on putting the house up on sale probably by the end of the week. So, you know, you can take a look through it and if the offer is where I need it to be or where I want it to be, we'll talk. If it's lower than that, then I won't, you know, I'm not going to close the house for 90 grand or something. It's not happening.
-Customer: I know you guys look through taxes and stuff and you think I don't have my taxes paid, but if you look again, you'll notice that they're paid up in full. So, I'm not worried about that at all.
-AI: Yeah, it's good that everything's paid off, you know. I just look for properties, you know, that need some work and then, you know, I'll buy the tenant.
+Customer: Well, I have a realtor right now, but it's a friend of mine and I do plan on putting the house up on sale probably by the end of the week. So, you know, you can take a look through it and if the offer is where I need it to be or where I want it to be, we'll talk. If it's lower than that, then I won't, you know, I'm not going to close the house for 90 grand or something. It's not happening. 
+AI: I know you guys look through taxes and stuff and you think I don't have my taxes paid, but if you look again, you'll notice that they're paid up in full. So, I'm not worried about that at all.
+Customer: Yeah, it's good that everything's paid off, you know.
+AI: I just look for properties, you know, that need some work and then, you know, I'll buy the tenant.
 Customer: I have a tenant in there.
-AI: Oh, perfect. Yeah, it's perfect. No, I'm just saying, like, I look for houses that need a little bit of work to it, you know, and I just try and, like, yeah.
-Customer: Yep.
-AI: Okay. Well, I'll be there Wednesday. Come anytime between, like, 12 and 2, I'll be there.
-Customer: Okay, perfect. I'll give you a call around, um, when's a good time I can give you a call? I mean, I'm up by, like, 8 or 9 in the morning. I mean, I'm, you know, a normal person.
-Customer: Yeah, I know what you mean.
-AI: Yeah, I can give you a call around 9, around maybe tomorrow.
+AI: Oh, perfect. Yeah, it's perfect.
+Customer: No, I'm just saying, like, I look for houses that need a little bit of work to it, you know, and I just try and, like, yeah.
+AI: Yep. Okay. Well, I'll be there Wednesday. Come anytime between, like, 12 and 2, I'll be there. 
+Customer: Okay, perfect. I'll give you a call around, um, when's a good time I can give you a call? I mean, I'm up by, like, 8 or 9 in the morning. I mean, I'm, you know, a normal person. 
+AI: Yeah, I know what you mean. Yeah, I can give you a call around 9, around maybe tomorrow. 
 Customer: Yeah. You know, I'm taking out here. I'll buy these here, like, around 10, 10 or 11. I don't have much left. I just got to paint some ceilings and I've been blowing it off because I hate painting ceilings.
 AI: Oh, I like the ceilings.
-Customer: Okay. Yeah, I like it. Um, I just got to finish that up and then I'm pretty much, um, washing my ass with this thing and I'm going to sell it as is.
-AI: Perfect,
+Customer: Okay. Yeah, I like it. Um, I just got to finish that up and

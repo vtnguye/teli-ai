@@ -1,7 +1,2 @@
-AI: Hello, may I speak with a mall, Esa please?
-Customer: Hi, I'm a local homebuyer in the area just calling to see if you own the property at Rooder Street in Dearborn...
-AI: Remove my number from your list.
-Customer: Thank you.
-AI: Thank you.
-Customer: Bye.
-AI: Bye.
+AI: Hello is john there? 
+Customer: No who is this? Do not call me again. 
