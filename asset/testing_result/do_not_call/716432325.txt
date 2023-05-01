@@ -1,5 +1,4 @@
-Hello.
-Hello.
-Hi, are you the property owner on Continental Revenue in Warren?
-Please don't call.
-Thank you.
+Customer: Hello? 
+AI: Hi, are you the property owner on Continental Avenue in Warren? 
+Customer: Please don't call. 
+AI: Thank you.

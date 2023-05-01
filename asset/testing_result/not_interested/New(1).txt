@@ -1,0 +1,8 @@
+AI: Hello?
+AI: Hello?
+AI: Hello?
+Customer: Hi.
+AI: Hi.
+Customer: Hi. 
+AI: Are you the property owner of Perry Lake Road in Clarkston?
+Customer: I am one of the owners, but if you're looking to try to buy it, we're not interested.

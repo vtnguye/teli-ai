@@ -1,0 +1,26 @@
+Customer: Hello?
+AI: Hello. Hi, are you the property owner on Grove Avenue in East Point?
+Customer: Yes, sir.
+AI: Hi, I came across this property and I was trying to see if you were interested in selling it for cash.
+Customer: Yeah, yeah, $150.
+AI: You want $150 for it?
+Customer: Yes, sir.
+AI: Okay. Uh, is that the least you would go on it?
+Customer: No, I can give them out bit by bit.
+AI: I'm talking about the price for $150 you want. Like, is that enough to negotiate more down?
+Customer: No, sir.
+AI: No, sir.
+Customer: Oh, $150. It's brand new. It's a brand new remodel.
+AI: Oh, everything is brand new.
+Customer: Okay, I see.
+AI: Okay, do you have any other property you're interested in selling?
+Customer: Yes, yes. Do you have...
+AI: Yes, I have a ton of them. Three of them I'm remodeling.
+Customer: Yes, sir.
+AI: Okay, okay. Do you have any properties that need work to it?
+Customer: No, sir.
+AI: No, everything is updated?
+Customer: Yes, sir. That's what I do. I update them and I sell them.
+AI: Oh, I see. Okay.
+Customer: Well, thank you so much for your time, sir.
+AI: Yes, sir. Bye-bye.
