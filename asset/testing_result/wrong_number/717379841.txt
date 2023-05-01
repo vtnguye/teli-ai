@@ -1,7 +1,7 @@
-Customer: Hello?
-AI: Hi, this is Sean.
-Customer: Hi, are you the popular one on Warner Street in Warren?
-AI: Say that again?
-Customer: Are you the popular one on Warner Street in Warren?
-AI: No, sorry, you must have the wrong number.
-Customer: Sorry about that.
+Hello? 
+Hi, this is Sean. 
+Hi, are you the popular one on Warner Street in Warren? 
+Say that again? 
+Are you the popular one on Warner Street in Warren? 
+No, sorry, you must have the wrong number. 
+Sorry about that.

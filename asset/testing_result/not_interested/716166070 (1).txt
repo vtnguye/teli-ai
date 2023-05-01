@@ -1,4 +1,4 @@
-Customer: Hello?
-AI: Yes?
-AI: Yes, hi, are you the prop owner on Berkshire Street? 
-Customer: Yes, I'm not interested in selling.
+Hello?
+Yes? 
+Yes, hi, are you the prop owner on Berkshire Street? 
+I'm not interested in selling.

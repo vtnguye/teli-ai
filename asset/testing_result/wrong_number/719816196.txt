@@ -1,6 +1,4 @@
-Customer: Hello? 
-Customer: Hello? 
-AI: Hi, are you the prop guy on Ledge Stone Drive in Waterford? 
-Customer: Am I the what? 
-AI: Are you the prop guy on Ledge Stone Drive in Waterford? 
-Customer: No.
+Hello? 
+Hi, are you the prop guy on Ledge Stone Drive in Waterford? 
+Am I the what? 
+No.

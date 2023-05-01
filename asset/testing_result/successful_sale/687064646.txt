@@ -1,23 +1,25 @@
-Customer: Hello?
-AI: Yeah?
-Customer: Hiya, is this the property owner on Sutherland Ave?
-AI: Hello?
-Customer: Hello?
-AI: Yeah, go ahead. Is this the property owner on Sutherland Ave in Warren?
-Customer: I'm sorry?
-AI: Do you own the property on Sutherland Ave?
-Customer: Seven...
-AI: What's that six-three-nine? Sutherland Ave, the three-zero-nine-nine-one.
-Customer: No, no, no.
-AI: Do you own any property you're interested in selling?
-Customer: Yeah, why?
-AI: I'm a local real estate investor. I'm interested in buying property. What property are you interested in selling? 
-Customer: Do you have a price in mind?
-AI: Okay, maybe I'm going to call you tomorrow. Because I'm sitting by... I don't want to say, like... 
-Customer: Yeah, yeah.
-AI: I want to sell it to some other people. 
-Customer: Uh-huh, uh-huh.
-AI: When can I call you?
-Customer: Tomorrow?
-AI: Call me tomorrow, yeah. 
-Customer: Okay.
+Hello?
+Yeah? 
+Hiya, is this the property owner on Sutherland Ave? 
+Yeah, go ahead.
+Is this the property owner on Sutherland Ave in Warren?
+I'm sorry?
+Do you own the property on Sutherland Ave?
+Seven... 
+What's that six-three-nine? Sutherland Ave, the three-zero-nine-nine-one.
+No, no, no.
+Do you own any property you're interested in selling?
+Yeah, why?
+I'm a local real estate investor. I'm interested in buying property.
+What property are you interested in selling?
+Do you have a price in mind?
+Okay, maybe I'm going to call you tomorrow.
+Because I'm sitting by...
+I don't want to say, like...
+Yeah, yeah.
+I want to sell it to some other people.
+Uh-huh, uh-huh.
+When can I call you?
+Tomorrow?
+Call me tomorrow, yeah.
+Okay.

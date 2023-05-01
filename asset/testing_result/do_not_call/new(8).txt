@@ -1,5 +1,0 @@
-Customer: Hello. 
-AI: Hello. 
-AI: Hi, are you the property owner on Continental Avenue in Warren?
-Customer: Please don't call. 
-AI: Thank you.

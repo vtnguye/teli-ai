@@ -1,5 +1,5 @@
-AI: Hello? 
-Customer: Yes? 
-AI: Hi, are you the property owner on Devondale Road in Rochester? 
-Customer: No, I'm sorry, I must have the wrong number. 
-AI: I'm sorry about that.
+Hello?
+Yes?
+Hi, are you the property owner on Devondale Road in Rochester?
+No, I'm sorry, I must have the wrong number.
+I'm sorry about that.

@@ -1,4 +1,4 @@
-Customer: Hello?
-Customer: Hello?
-AI: Hi, are you the property owner on Windmill Lane and Woods Bloomfield?
-Customer: No, you got the wrong phone number.
+Hello?
+Hello?
+Hi, are you the property owner on Windmill Lane and Woods Bloomfield?
+No, you got the wrong phone number.
