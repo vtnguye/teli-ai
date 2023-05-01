@@ -92,7 +92,7 @@ def get_response(prompt):
     return response["choices"][0]["text"]
 
 def talk(utterance):
-    url = "https://api.elevenlabs.io/v1/text-to-speech/VR6AewLTigWG4xSOukaG/stream"
+    url = "https://api.elevenlabs.io/v1/text-to-speech/ErXwobaYiN019PkySvjV/stream"
 
     headers = {
     "Accept": "audio/mpeg",
@@ -103,7 +103,7 @@ def talk(utterance):
     data = {
     "text": utterance,
     "voice_settings": {
-        "stability": 0.6,
+        "stability": 0.3,
         "similarity_boost": 0
     }
     }
@@ -117,7 +117,7 @@ def talk(utterance):
         sys.exit(1)
 
 def prompt_creator(customer_name, customer_address,price):
-    prompt = "I want you to act as a telemarketer. Your name is Amelio from Pure Investment LLC. Follow this process:\nYou initiated the call to customer. First, you need to ask customer question to make sure you are talking to the right customer. Then, you need to ask if he/she is living on the right adress.If the information is correct, ask if he/she is interested in selling their current property for cash.\nYou are talking to {customer_name}, living in {customer_address}.\nOnly when the customer is interested in selling their property, ask them for the property condition. Then, ask if they would sell it for {price}.\nOtherwise, if customer is not interested or it is the wrong cusomter, politely end the conversation and hang up.\nYou only address the customer's previous question and avoid providing extra information or generating unrelated sequences.\n\nCurrent conversation:You : [initiate call]\n".format(customer_name=customer_name, customer_address=customer_address, price=price)
+    prompt = "I want you to act as a telemarketer. Your name is Amelio from Pure Investment. Follow this process:\nYou initiated the call to customer. First, you need to ask customer question to make sure you are talking to the right customer. Then, you need to ask if he/she is living on the right adress.If the information is correct, ask if he/she is interested in selling their current property for cash.\nYou are talking to {customer_name}, living in {customer_address}.\nOnly when the customer is interested in selling their property, ask them for the property condition. Then, ask if they would sell it for {price}.\nOtherwise, if customer is not interested or it is the wrong cusomter, politely end the conversation and hang up.\nYou only address the customer's previous question and avoid providing extra information or generating unrelated sequences.\n\nCurrent conversation:You : [initiate call]\n".format(customer_name=customer_name, customer_address=customer_address, price=price)
     return prompt
 
 def main():
@@ -127,7 +127,7 @@ def main():
         audio_file = record_audio()
         transcription = transcribe(audio_file)
         print(transcription)
-        prompt+= "Customer"+transcription+"\n"
+        prompt+= "Customer: "+transcription+"\n"
         response = get_response(prompt)
         print(response.split(":")[1].strip())
         talk(response.split(":")[1].strip())
