@@ -1,4 +1,4 @@
-Hello? 
-Hi, are you the cop on Holdbrook Avenue in Waterford? 
-Hello? 
-Please take me off your call list.
+Customer: Hello? 
+AI: Hello? 
+AI: Hi, are you the property owner on w maple drive? 
+Customer: Please take me off your call list. and do not call me ever again. 

@@ -1,0 +1,5 @@
+Customer: Hello? Hello? 
+AI: Hi, are you the property owner on East Jarvis Avenue in Hazel Park? 
+Customer: Hold on, what? Are you the property owner on East Jarvis Avenue in Hazel Park? Why are you people calling us on that property? 
+AI: I'm not sure, you know, it's my first time calling you guys. Maybe other people are calling. 
+Customer: Hey, what's up with your fucking list, asshole?

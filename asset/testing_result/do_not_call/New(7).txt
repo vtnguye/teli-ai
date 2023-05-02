@@ -1,0 +1,3 @@
+Customer: Hello? Yes? // AI: Hi, this is the property owner of Ketchamono Street in Clinton Township.
+AI: Why are you asking? // Customer: I came across this property and I was wondering if you were selling it for cash.
+Customer: No I'm not, thank you. Don't call me no more.

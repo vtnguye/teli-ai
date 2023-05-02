@@ -1,0 +1,10 @@
+Customer: Hello?
+AI: Hi I am so sorry to both but are you the property owner on 105 Wendellwood Drive in Pontiac?
+Customer: No, that's my ex-husband, why?
+AI: Okay, I'm just calling to see if he might be interested in selling the property for cash?
+Customer: I can tell you right now, absolutely not. No. That is a house he will die in.
+AI: Okay,do you own any properties you would be interested in selling fopr cash?
+Customer: No.
+AI: Okay then, you have a good day. 
+Customer: You too, and can you please not call me ever again
+AI: Yes, bye

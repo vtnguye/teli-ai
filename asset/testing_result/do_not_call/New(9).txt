@@ -1,4 +1,4 @@
-Customer: Hello?
+Customer: Hello? 
 AI: Hello?
 Customer: Hi, are you the driver on Lombrecht Avenue in East Point? 
 AI: No man, no. 

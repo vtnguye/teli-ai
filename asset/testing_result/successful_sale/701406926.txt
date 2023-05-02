@@ -1,19 +1,9 @@
-Hello, are you the homeowner of 140 Jersey 1 Elgin Street, No Park?
-Yes, I am.
-By any chance, are you interested in selling the property for cash?
-No, thank you. I do have another property in Southfield.
-Are you interested in that one?
-Yes.
-Okay. Well, I don't have the list pulled up for that.
-Are you a realtor or are you a buyer?
-I'm a buyer. Well, we're looking for homes that need renovations.
-We fixed them up and then we resell them for profit.
-Oh, I see. Okay. Can you text me your information?
-I do have one that I would like you to look at.
-If you want, I can also save your number and then within the next day or so,
-I can have one of my partners call you and then you guys work it out even more.
-That sounds well.
-Okay, that's perfect.
-All right, thank you for your time. You have a good one.
-Bye-bye. Bye.
-
+Customer: Hello, are you the homeowner of 1401 Elgin Street, No Park?
+AI: Yes, I am. By any chance, are you interested in selling the property for cash?
+Customer: No, thank you. I do have another property in Southfield. Are you interested in that one?
+AI: Yes. Okay. Well, I don't have the list pulled up for that. Are you a realtor or are you a buyer?
+Customer: I'm a buyer.
+AI: Well, I'm not – we're looking for homes that need renovations. We fix them up, and then we resell them for profit.
+Customer: Oh, I see. Okay. Can you text me your information? I do have one that I would like you to look at. If you want, I can also – I'll save your number, and then within the next day or so I can have one of my partners call you, and then you guys work it out even more if that sounds well.
+Customer: Okay, that's perfect.
+AI: All right, thank you for your time. You have a good one. Bye-bye.

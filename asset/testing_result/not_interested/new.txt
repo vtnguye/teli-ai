@@ -1,0 +1,6 @@
+Customer: Hello? 
+AI: Yes? 
+Customer: Hi, are you the founder of Lakewood Boulevard in Clarkson? 
+AI: Yes. I came across this property and I was trying to see if you were interested in selling it for cash. 
+Customer: $300,000. It's yours. 
+AI: $300,000?

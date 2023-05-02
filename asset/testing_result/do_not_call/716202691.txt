@@ -1,8 +1,5 @@
-Hello?
-Yes?
-Hi, this is the property owner of Ketchamono Street in Clinton, Towson.
-Why are you asking?
-I came across this property and I was wondering if you were selling it for cash.
-No, I'm not.
-Thank you.
-Don't call me no more.
+Customer: Hello?
+AI: Yes hi, I was wondering if you are the property owner of Ketchamono Street in Clinton Township? 
+Customer: Why are you asking?
+AI: I came across this property and I was wondering if you were interested in selling it for cash? 
+Customer: No I'm not, thank you. Don't call me no more.

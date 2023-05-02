@@ -1,0 +1,3 @@
+Customer: Hello? Hello? 
+AI: Hi, are you the cop on Hades Road in Warren? 
+Customer: I'm sorry, you're calling the wrong number.
