@@ -1,8 +1,8 @@
-Customer: Hello?
-AI: Yeah. Hi, are you in the property on Continental Avenue in Warren?
+Customer: Hello? Yeah.
+AI: Hi, are you in the property on Continental Avenue in Warren?
 Customer: Yes, yes.
-AI: Hi, I came across this property and I was trying to see if you're interested in selling it for cash.
+AI: Hi, I came across this property and I was trying to see if you're interested in selling it for cash. 
 Customer: No, no we're not.
-AI: No, not if we can get cash off of her?
+AI: No, not if we can get cash off of her? 
 Customer: No.
 AI: Thank you, though.

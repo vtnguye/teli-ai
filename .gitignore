@@ -199,5 +199,3 @@ pip-selfcheck.json
 #Testing audios and results
 asset/testing_audio/*
 chromadb
-
-# End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,virtualenv

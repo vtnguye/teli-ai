@@ -1,7 +1,13 @@
-Customer: Hello? 
-AI: Hello? 
+AI: Hello? Hello?
 AI: Hi, are you the proper one on Bridgeway and West Boulefield?
+<<<<<<< HEAD
 Customer: What? 
 AI: Are you the proper one on Bridgeway and West Boulefield? 
 Customer: No, you have the wrong number. 
 AI: Sorry about that.
+=======
+Customer: What?
+AI: Are you the proper one on Bridgeway and West Boulefield?
+Customer: No, you have the wrong number.
+Customer: Sorry about that.
+>>>>>>> 6f660fdbe4d6631ef8eedf0ecdb566100fd74116

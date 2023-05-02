@@ -14,12 +14,13 @@ AI: What time?
 Customer: Best time tomorrow.
 AI: Best time tomorrow. What time would you like to call?
 Customer: Probably around the same time.
-AI: Alright. Right now. 
-
-Customer: And so if you were to go with this deal, you're going to be saving on real estate fees as well as property fees, as well as all the hassle when it comes to putting the house on the market when you have people going in and out of your house. Since we're doing it all cash-based, it'll be quick and easy.
-AI: Alright. So that sounds good. At 2 o'clock tomorrow, around 2 o'clock, I'll let my partner know to give you a call.
-Customer: Alright, yeah. You know, at any time, I'll for sure, this is just a one-time thing. Yeah, if everything works out. Yeah, you know, a thing you never know. 
-AI: Yeah, I understand. Alright, it'll be from a different phone number, so if you see a different phone number call you, most likely the answer will be him.
+AI: Alright. Right now. And so if you were to go with this deal, you're going to be saving on real estate fees as well as property fees, as well as all the hassle when it comes to putting the house on the market when you have people going in and out of your house. Since we're doing it all cash-based, it'll be quick and easy.
+Customer: Alright. So that sounds good. 
+AI: At 2 o'clock tomorrow, around 2 o'clock, I'll let my partner know to give you a call.
+Customer: Alright, yeah. You know, at any time, I'll for sure, this is just a one-time thing.
+AI: Yeah, if everything works out.
+Customer: Yeah, you know, a thing you never know.
+AI: Yeah, I understand. Alright, it'll be from a different phone number, so if you see a different phone number call you, most likely the answer will be him. 
 Customer: Where are you guys out of?
 AI: I'm in Novi, and my partner is also in Novi.
 Customer: Alright, what are you guys running, real estate or?
