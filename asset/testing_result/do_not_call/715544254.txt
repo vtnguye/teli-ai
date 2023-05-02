@@ -1,3 +1,4 @@
-Customer: Hello? 
-AI: Hi, are you the property owner on cop guard of Austin Boulevard in Macomb?
-Customer: Can you stop calling me? Quit harassing me.
+Hello?
+Hi, are you the cop guard of Austin Boulevard in Macomb?
+Can you stop calling me?
+Quit harassing me.

@@ -1,6 +1,0 @@
-Customer: Hello?//Hello, who's this?
-AI: Hi, my name is Zach. I was looking for the property owner on 3rd Avenue in Pontiac.
-Customer: You're what?//I was looking for the property owner at 390 3rd Avenue in Pontiac.
-AI: Well, I have no interest in talking to you. I don't know who you are. And I didn't ask you to call me.
-Customer: Okay, I will. Could you give me your list, please?
-AI: You don't need to be so rude...

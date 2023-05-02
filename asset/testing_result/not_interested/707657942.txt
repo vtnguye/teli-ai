@@ -1,7 +1,8 @@
-Customer: Hello
-AI: Uh, hello, are you the homeowner of 49635 Lakewood Street in Macomb? 
-Customer: Yeah. Correct. why?
-AI: I just wanted to give you a call and see if you were interested in selling this proeprty for cash? 
-Customer: No.
-AI: Okay, thank you for your time.
-Customer: Have a good one.
+Hello, are you the homeowner of 49635 Lakewood Street in Maycomb?
+In McComb?
+Yeah.
+Correct.
+By any chance are you interested in selling the property for cash?
+No.
+Okay, thank you very much. I'm gonna go in.
+

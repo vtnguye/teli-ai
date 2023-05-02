@@ -1,4 +1,0 @@
-Customer: Hello? Who's that? 
-AI: Hi, are you the property owner on 23320 Melville Avenue in Hazel Park?
-Customer: No, please don't call again. 
-AI: Okay.
