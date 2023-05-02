@@ -1,3 +1,4 @@
 Customer: Hello? Hello? 
-AI: Hi, are you the cop on Hades Road in Warren? 
+AI: Hi, are you the property owner on haaser Road in Warren? 
 Customer: I'm sorry, you're calling the wrong number.
+AI: Oops, my bad. 
