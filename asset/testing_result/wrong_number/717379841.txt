@@ -1,7 +1,7 @@
 Customer: Hello?
-AI: Hi, this is Sean.
-Customer: Hi, are you the popular one on Warner Street in Warren?
-AI: Say that again?
-Customer: Are you the popular one on Warner Street in Warren?
-AI: No, sorry, you must have the wrong number.
-Customer: Sorry about that.
+AI: Hi, is this property owner on Soutch Bentwood lane in waterford? 
+Customer: What? 
+AI: Do you own this property on South Bentwood lane in waterford by any chance? 
+Customer: No. You have the Wrong number man. I have never heard of that property in my life.
+AI: So sorry to bother. I hope you have a great day. 
+Customer: Thanks. 
