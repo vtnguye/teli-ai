@@ -1,4 +1,5 @@
 Customer: Hello? Hello?
 AI: Hi, are you the property owner on River Drive in Litchfield?
-Customer: I'm sorry, I didn't hear you. Are you the property owner on River Drive in Litchfield?
-AI: No, I'm not.
+Customer: I'm sorry, I didn't hear you, what did you say? 
+AI: Are you the property owner on River Drive in Litchfield?
+Customer: No, I'm not.
