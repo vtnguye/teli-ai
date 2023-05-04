@@ -10,4 +10,4 @@ Customer: Oh nice man, I used to do the same thing. How much do you think you wo
 AI:I can give you a range from about 100 to 150 thousand dollars. But once again it can maybe be more or less depending on the condition. Does that sound about right to you?
 Customer: Not really, thats no where near what Im looking for. Have a nice day
 AI:What are you looking for then? 
-Customer: No where near 100 thousand thats for sure. Have a nice day. 
+Customer: No where near 100 thousand thats for sure. Have a nice day.
