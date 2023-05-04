@@ -3,5 +3,5 @@ AI: Hi, is this property owner on Soutch Bentwood lane in waterford?
 Customer: What? 
 AI: Do you own this property on South Bentwood lane in waterford by any chance? 
 Customer: No. You have the Wrong number man. I have never heard of that property in my life.
-AI: So sorry to bother. I hope you have a great day. 
+AI:Im So sorry to bother I hope you have a great day. 
 Customer: Thanks. 
