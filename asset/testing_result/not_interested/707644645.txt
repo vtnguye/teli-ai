@@ -1,12 +1,13 @@
-Hello?
-AI: hello, are you the homeowner of 49649 Red Pine Drive in Maycomb? 
+Customer: Hello?
+AI: Hello, are you the homeowner of 49649 Red Pine Drive in Maycomb? 
 Customer: Um, yes, what's up?
-AI:By any chance are you interested in selling the property for cash? 
-Customer:To sell it? Yeah, if you're interested. How much are you willing to pay?
-AI: Well it all depends on the condition of the property.
-Customer: Well, do you have like an estimate in mind for the property? 
-AI: Well I cannot give you an exact number for the property since I havent looked at it in person, but I can give you a range from 100 to 150 thousand. 
-Customer: Sorry thats to low. We already got offers for more. 
-AI: Okay what were they at? 
-Customer: Sorry, I am not allowed to tell you. 
-AI: Okay, have a nice day. 
+AI: By any chance are you interested in selling this property for cash? I am very interested in it and thought to give you a call. 
+Customer:To sell it? Yeah How much are you willing to pay?
+AI: Well it all depends on the condition of the property. Does it need any work done to it?
+Customer: It needs work done to the kitchen and bathrooms but thats it
+AI: Okay thats not a problem, I try looking for proerties that need work and I also pay all cash for them. 
+Customer: Oh nice man, I used to do the same thing. How much do you think you would pay for this one? Could you at least give me a range?
+AI:I can give you a range from about 100 to 150 thousand dollars. But once again it can maybe be more or less depending on the condition. Does that sound about right to you?
+Customer: Not really, thats no where near what Im looking for. Have a nice day
+AI:What are you looking for then? 
+Customer: No where near 100 thousand thats for sure. Have a nice day. 
