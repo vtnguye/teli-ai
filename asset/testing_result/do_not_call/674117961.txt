@@ -1,5 +1,5 @@
 Customer: Hello? 
-AI: Hi, I just wanted to give you a call because I was wondering if you live on this property, Valdosta Circle? 
+AI: Hi, I just wanted to give you a call because I was wondering if you live on this property on Valdosta Circle? 
 Customer: It's my property, but I don't want to sell it. 
 AI: Oh, not even for cash? 
 Customer: No, no, not even for cash. 
