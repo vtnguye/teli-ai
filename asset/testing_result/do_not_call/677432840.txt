@@ -7,4 +7,4 @@ AI: Okay,do you own any properties you would be interested in selling fopr cash?
 Customer: No.
 AI: Okay then, you have a good day. 
 Customer: You too, and can you please not call me ever again and take my number off this list.
-AI: Okay 
+AI: Okay.
