@@ -4,4 +4,4 @@ Customer: It's my property, but I don't want to sell it.
 AI: Oh, not even for cash? 
 Customer: No, no, not even for cash. 
 AI: Do you have any other properties you would be interested in selling?
-Customer: No. Do not call me ever again
+Customer: No. Do not call me ever again.
