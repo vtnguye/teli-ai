@@ -1,0 +1,6 @@
+Customer: Hello? 
+AI: Yes. Hi, are you the property owner on East 14 Mile Road in Colossal? 
+Customer: No. No. 
+AI: Oh, by any chance do you know who owns this property? 
+Customer: I'm so sorry but I do not. You have the wrong number. 
+AI: Okay, thank you for your time.

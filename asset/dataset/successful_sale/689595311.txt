@@ -1,0 +1,28 @@
+AI: Hello.
+Customer: Hello.
+AI: Hi, are you the property owner on East Harry Avenue?
+Customer: I am.
+AI: Hi, I came across your property and was very interested it in so i wanted to give you a call and see if you would ever be interested in selling it for cash?
+Customer: yeah I would be interested. how much would you pay for it?
+AI: Well it all depends on the condition of the property. Can you tell me a little bit more about it and what you have done to it?
+Customer: It's a five bedroom, two baths. The kitchen and the main bathroom both needs remodeling. I have a three car garage, full basement, two lots. I just put a new flooring in there. I have carpet that's a few years old.
+AI: Okay, and the kitchen?
+Customer: Needs updating badly.
+AI: Needs updating badly?
+Customer: Yes you would have to redo the whole thing. 
+AI: Okay thats not a problem, And the bedrooms are fine?
+Customer: Yeah.
+AI: Okay, well I am very interested in it and I would pay you all cash for it. Do you have a ballpark in mind you would want for the property?
+Customer: I do not have an exact number, but I would be willing to negotiate on it. 
+AI: I would love to come and ttake a look at it whenever you are free. 
+Customer: Well I plan to list my house on the marktet next week so come if you want. 
+AI: Ohhh, well I try to buy homes off the market. Once again, I would pay you all cash and on top of that I will take care of the real estate fees and closing costs for you. 
+Customer: Oh you would take care of all of that? 
+AI: Yes, you dont even have to worry about any of that. And it saves you the headache of people walking in and out of your house. 
+Customer: Okay, how about you come take a look at it on Friday, and if we can agree on a number I will not list it on the market.  
+AI: Awesome, What time is good for you?
+Customer: Say two o'clock. 
+AI: Two o'clock? 
+Customer: Yeah, one or two. Either one.
+AI: Okay, let me look at my schedule and I will give you a call back confirming the appointment. Im really excited about coming out and doing business with you.  
+Customer:Sounds good. Talk Soon
