@@ -1,0 +1,31 @@
+AI: 
+Customer: How did you get my number? 
+AI: I went through the public records in the city and saw that your number was correlated to it so I thought Id give you a call and see if you would ever be interested in selling it for cash. 
+
+Customer: What did you say I can't hear you
+AI: Are you the property owner on three one eight bentwood lane by any chance? 
+
+Customer: My ex wife and I own it so I would have to talk with her to see what she wants to do 
+AI: I understand, have you guys ever considered selling it?
+
+Customer: I don’t want to sell the property 
+AI: Not even for cash? 
+
+Customer: Let me talk to my wife and I can give you a call back
+AI: Okay, can I give you a call back in a few days? 
+
+Customer: I don't want to sell this property but I have another property I am interested in selling
+AI: Awesome, Can I get the address for the property so I can look it over? 
+
+Customer: Its my sons property
+AI: Do you know if he is interested in selling it? 
+
+Customer: Im getting old and want these properties off my hands 
+AI: Well I am young and hungry to acquire some properties! I would love to do business with you. I would pay all cash for them. 
+
+Customer: Hello
+AI: Hi is this the property owner of
+
+AI: Hi is this the property owner of
+Customer: Yeah
+AI: Are you interested in selling it for cash

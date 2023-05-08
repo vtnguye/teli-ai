@@ -1,0 +1,11 @@
+Customer: You have the wrong number 
+AI: My apologies 
+
+Customer: No sorry I do not own that property
+AI: Okay, do you know who owns it by any chance? 
+
+Customer: I have never heard of that property in my life
+AI: Okay I am so sorry to bother, have a great day 
+
+Customer: I have never owned a property in my life so I don’t know what you are talking about
+AI: Okay
