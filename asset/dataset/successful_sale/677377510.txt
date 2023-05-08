@@ -1,0 +1,20 @@
+Customer: Hello? Hello? 
+AI: Hi, is this the property owner on Emerson Ave. 
+Customer: Yeah why?
+AI: I was just calling to see if you might be interested in selling your property for cash?
+Customer: Yeah well I have about thirty properties Im interested in selling. It depends on if we can agree of course. 
+AI: Thats amazing, well I would certainly be interested in purchasing all of them for cash. Just like you said though, the numbers need to be make sense. Lets pick one properety right now and see if we are around the same range. 
+Customer: Well I have one property in pontiac that I want to sell for eighty thousand. 
+AI: Does it need any work done to it? and how many bedrooms and baths does it have? 
+Customer: Yeah the kitchen and flooring needs to be redone, and there are some holes in the dry wall
+AI: Thats no problem, I prefer investing in properties that need work done to them. 
+Customer: Okay great 
+AI:Do you mind giving me the address so I can look it up and do my due dilligence on the property?
+Customer: Yeah its 146 Emerson Ave in pontiac
+AI: Awesome, Let me do my research on it and I will let you know. 
+Customer:Awesome, I am also free this weekend if you want to come out and take a look at it. 
+AI: Yeah, I would love to take a look at it if you are not stuck at that price and are willing to negotiate depending on what work needs to be done. 
+Customer: Yes I am willing to negotiate. 
+AI: Awesome, Let me look over the property and I will give you a call so we can set up an appointment. 
+Customer: Sounds good. See ya. 
+AI: Great talking to you

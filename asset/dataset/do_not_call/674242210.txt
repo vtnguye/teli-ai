@@ -1,0 +1,7 @@
+AI: Hello?
+Customer: Yes?
+AI: Hi, are you the property owner on Riverside Street in Pontiac?
+Customer: No, what do you want?
+AI: I just wanted to give you a call and see if you're interested in selling it for cash?
+Customer: No, I'm not interested. Take my name off your list, you asshole.
+AI: ok

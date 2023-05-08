@@ -7,16 +7,15 @@ from openai.embeddings_utils import get_embedding
 from chromadb.config import Settings
 from chromadb.utils import embedding_functions
 
-def prepare_dataset(testing_results_dir):
-    folder_names = ["not_interested", "do_not_call"]
+def prepare_dataset(dataset_path):
     conversations = []
-    for folder_name in folder_names:
-        folder_dir = os.path.join(testing_results_dir,folder_name)
-        for file in os.listdir(folder_dir):
-            if file.endswith(".txt"): #Loop through all files
-                with open(os.path.join(folder_dir,file), "r") as f:
-                    content = f.read()
-                    conversations.append(content)   
+    
+    for file in os.listdir(dataset_path):
+        if file.endswith(".txt"):  # Loop through all files with .txt extension
+            with open(os.path.join(dataset_path, file), "r") as f:
+                content = f.read().split("\n\n")  # Split content by two newlines
+                conversations.extend(content)
+    
     return conversations
 
 def ingest_data(collection,data,batch_size = 9):
@@ -31,13 +30,14 @@ def main():
     OPEN_API_KEY = os.getenv("OPENAI_API_KEY")
     CHROMA_CLIENT = chromadb.Client(Settings(
         chroma_db_impl="duckdb+parquet", persist_directory="./chromadb"))
-    CHROMA_CLIENT.persist()
     EMBEDDINGS_MODEL = "text-embedding-ada-002"
-    openai_ef = embedding_functions.OpenAIEmbeddingFunction(api_key=OPEN_API_KEY,model_name=EMBEDDINGS_MODEL)
-    collection = CHROMA_CLIENT.get_or_create_collection(name="teli-ai",embedding_function=openai_ef)
-    TESTING_RESULTS_DIR = "asset/testing_result/"
+    #openai_ef = embedding_functions.OpenAIEmbeddingFunction(api_key=OPEN_API_KEY,model_name=EMBEDDINGS_MODEL)
+    sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
+    collection = CHROMA_CLIENT.get_or_create_collection(name="teli-ai",embedding_function=sentence_transformer_ef)
+    TESTING_RESULTS_DIR = "asset/flow/"
     conversations = prepare_dataset(TESTING_RESULTS_DIR)
     ingest_data(collection,conversations)
+    CHROMA_CLIENT.persist()
 
 if __name__ == "__main__":
     main()

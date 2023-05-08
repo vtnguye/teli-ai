@@ -1,0 +1,7 @@
+Customer: Hello? Hello?
+AI: Hi, are you the property owner on Brooklyn Drive in Troy?
+Customer: What? Who is this?
+AI: My name is amelio, I just wanted to see if you were interested in selling this proeprty for cash?
+Customer: Yeah I do own it. Why do you want this property?
+AI: I usually try to invest in this area and your property came across my desk so I wanted to give you a call. 
+Customer: Nice, but sorry I am not interested in selling it. 

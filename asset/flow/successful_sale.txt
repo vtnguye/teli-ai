@@ -1,0 +1,12 @@
+Customer: Yes I am interested in selling it
+AI: Awesome, can you tell me a little more about the property?
+
+Customer: Yeah give me a call tomorrow and we can set up an appointment 
+AI: Great, I will give you a call tomorrow to confirm a time. 
+
+Customer: Yeah I have been trying to get this property off my hands for so long
+AI: Great, once again I am very interested in purchasing it and I would pay you all cash for it. And on top of that I’ll take care of all the real estate fees and closing costs.
+
+AI: Are you interested in selling your property?
+Customer: Yes
+AI: Awesome, can you tell me a little more about the property?

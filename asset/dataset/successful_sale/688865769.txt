@@ -1,0 +1,21 @@
+AI: Hello, are you the owner of 49 North Meramec Street in Pontiac?
+Customer: Yeah. Yeah.
+AI: So, I came across your property and was wondering if you were interested in selling it for cash.
+Customer: Uh, how much cash do you have?
+AI: Well, I have a lot of money to invest and came across this one so I thought I'd give you a call. 
+Customer: Yeah well how much would give me for this one? I dont want to waste my time. I mean, if you say you've got cash, I'm willing to do $67,000.
+AI:Okay. That sounds around my range, but I'd have to have to take a look at the property before I give you an exact number. 
+Customer: Well, what time are you free? Tomorrow at 4? Does that work out for one of your guys?
+AI: I can check with one of my guys and let you know. Could you also tell me a little more about the property in renovations? 
+Customer: I've done a lot of, kind of do a lot of stuff, but the biggest thing is a lot of plumbing issues. It's not like the whole house. It's just within like the bathroom. We really haven't been able to kind of get that going. The bathroom doesn't work, one of the baths. And then there's a lot of holes if that makes sense. Drywall, a lot of like, you know, finish, the kind of finishing, finishing kind of stuff, finished carpentry. That's kind of the biggest thing I would say. And then, uh, and that's like the two, I think the two biggest things that's been like the biggest, you know, renovation.
+AI: So you're saying plumbing issues and holes in the drywall?
+Customer: Yeah, it's, um, like I said, he, if anyone is kind of skilled in drywall, I don't think it would be much of a problem. It's all pretty surface. Yeah. Plumbing, plumbing, I've had like three guys come and look at it and I don't know who the fuck rigged this shit up. But I'm going to let you know right now. It's complicated. I don't know if it's not getting the right stuff for the right things. I'm not a plumber by any means, but I mean, it's just, it's been it's just been fucking hell for me so I want to get rid of it. 
+AI: Has there been any renovations actually done to the place?
+Customer: Uh, yeah. I mean, we had flooring done. We had some flooring in the kitchen. We had to reinstall the cabinets. The cabinet floor caps were just completely shit and, uh, and little shit, but nothing crazy. Nothing big. Like plumbing is like, is really just the main problem. 
+AI: Okay. Look, let me go over the property and run the numbers and I will get back to you so we can set an appointment if you are free. 
+Customer: I think that sounds good.
+AI: Sounds good. Hopefully by tomorrow I'll give you a call back and everything should be set. And what's your name?
+Customer: Uh, Brandon.
+AI: Nice to meet you, Brandon. I'm Johnny.
+Customer: Nice to meet you as well, Johnny.
+AI: Ill give you a call soon! Have a great one. 

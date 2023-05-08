@@ -1,0 +1,13 @@
+Customer: Im sorry but I am not interested 
+AI: Okay 
+
+AI: Are you the owner of propery?
+Customer: Yes I do own it, but am not Interested in selling it
+AI: Not even for cash? 
+
+AI: Are you interested in selling this property for cash?
+Customer: Not interested 
+AI: Okay, have a nice day 
+
+Customer: I already listed it on the market and am not interested in selling it off the market 
+AI: No worries, do you have any other properties you would be interested in selling? I would pay all cash for them 
