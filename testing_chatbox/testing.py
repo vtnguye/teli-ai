@@ -76,9 +76,9 @@ def talk(utterance:str):
         print("Error:", response.status_code, response.text)
         sys.exit(1)
 
-def generate_prompt(customer_name:str, customer_address:str, price:str,current_conversation:str="",suggestion:str="") -> str:
+def generate_prompt(customer_address:str, price:str,current_conversation:str="",suggestion:str="") -> str:
     prompt = """
-Act as an AI telemarketer. You are Rachel from Pure Investment. You are talking to {customer_name}, with a property at {customer_address}, with a price estimation of {price}$. Be concise and straightforward.
+Act as an AI telemarketer. You are Rachel from Pure Investment. You are talking to the property owner at {customer_address}, with a price estimation of {price}$. Be concise and straightforward.
 Follow this guideline:
 Greet the customer. Confirm if you're talking to the right customer that owns the property at that address.
 If yes, ask them if they're interested in selling the property for cash.
@@ -90,7 +90,7 @@ Based on the most relevant response suggestion to create respond.
 Response suggestion:
 {suggestion}
 Current conversation:
-{current_conversation}""".format(customer_name=customer_name, customer_address=customer_address, price=price,current_conversation=current_conversation,suggestion=suggestion,)
+{current_conversation}""".format(customer_address=customer_address, price=price,current_conversation=current_conversation,suggestion=suggestion,)
     return prompt
 
 def get_suggestion(collection:any,query:str)->str:
@@ -106,13 +106,12 @@ def main():
     openai.api_key = OPEN_API_KEY
     recognizer = sr.Recognizer()
     microphone = sr.Microphone()
-    customer_name = "Vinny" # dont need names
     customer_address = "123 Main St"
     price = "one hundred thousand"
     current_conversation = ""
     suggestion = ""
     query = ""
-    prompt = generate_prompt(customer_name, customer_address, price)
+    prompt = generate_prompt(customer_address, price)
     collection = create_chroma_client()
 
     while True:
@@ -122,18 +121,18 @@ def main():
             #read input from user
             #print("Type:")
             #transcription = input().strip()
-            print("You said:", transcription)
+            print("You said:", transcription) 
             query += "Customer: " + transcription + "\n"
             current_conversation += "Customer: " + transcription + "\n"
             suggestion = get_suggestion(collection,query)
-            prompt = generate_prompt(customer_name, customer_address, price,current_conversation,suggestion)
+            prompt = generate_prompt(customer_address, price,current_conversation,suggestion)
             print(prompt)
             response = get_response(prompt).strip()
             agent_response = response.split(":")[1].strip()
             talk(agent_response)
             current_conversation += response + "\n"
             query = response + "\n"
-            prompt = generate_prompt(customer_name, customer_address, price,current_conversation,suggestion)
+            prompt = generate_prompt(customer_address, price,current_conversation,suggestion)
 
 if __name__ == "__main__":
     main()
