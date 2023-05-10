@@ -5,28 +5,29 @@ import requests
 import io
 from dotenv import load_dotenv
 from pydub import AudioSegment
-from chromadb.utils import embedding_functions
 from pydub.playback import play
 import speech_recognition as sr
 import chromadb
 from chromadb.config import Settings
-import concurrent.futures
-from typing import Tuple
+from chromadb.utils import embedding_functions
+
 
 def create_chroma_client():
     OPEN_API_KEY = os.getenv("OPENAI_API_KEY")
     EMBEDDINGS_MODEL = "text-embedding-ada-002"
-    persist_directory = "./chromadb"
-    collection_name = "teli-ai"
+
     openai_ef = embedding_functions.OpenAIEmbeddingFunction(
                 api_key=OPEN_API_KEY,
                 model_name=EMBEDDINGS_MODEL
             )
+    persist_directory = "./chromadb"
+    collection_name = "teli-ai"
     chroma_settings = Settings(
         chroma_db_impl="duckdb+parquet", persist_directory=persist_directory)
     CHROMA_CLIENT = chromadb.Client(chroma_settings)
     CHROMA_CLIENT.persist()
     collection = CHROMA_CLIENT.get_or_create_collection(name=collection_name,embedding_function=openai_ef)
+    print(collection.count())
     return collection
 
 def transcribe(recognizer: sr.Recognizer, microphone: sr.Microphone) -> str:
@@ -53,8 +54,8 @@ def get_response(prompt:str):
     response = openai.Completion.create(
         model="text-davinci-003",
         prompt=prompt,
-        temperature=0,
-        max_tokens=150,
+        temperature=0.1,
+        max_tokens=100,
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0,
@@ -80,7 +81,7 @@ def talk(utterance:str):
     if response.status_code == 200:
         audio_stream = io.BytesIO(response.content)
         audio = AudioSegment.from_file(audio_stream, format="mp3")
-        return audio
+        play(audio)
     else:
         print("Error:", response.status_code, response.text)
         sys.exit(1)
@@ -97,59 +98,18 @@ If the price is lower or equal to the estimated price, set up an appointment wit
 Based on the most relevant response suggestion to create respond.
 
 Response suggestion:
-{suggestion}
-Current conversation:
+{suggestion}Current conversation:
 {current_conversation}""".format(customer_address=customer_address, price=price,current_conversation=current_conversation,suggestion=suggestion,)
     return prompt
-def play_audio_with_interruption(audio: AudioSegment, recognizer: sr.Recognizer, microphone: sr.Microphone) -> Tuple[bool, str]:
-    def play_audio():
-        play(audio)
 
-    def listen_to_user():
-        return transcribe(recognizer, microphone)
-
-    with concurrent.futures.ThreadPoolExecutor() as executor:
-        audio_task = executor.submit(play_audio)
-        listen_task = executor.submit(listen_to_user)
-
-        while not listen_task.done():
-            if audio_task.done():
-                break
-            if listen_task.running():
-                transcription = listen_task.result()
-                if transcription:
-                    audio_task.cancel()
-                    return True, transcription
-    return False, ""
-
-def get_suggestion(collection:any,query:str)->str:
-    response = collection.query(query_texts=[query],n_results=3)
+def get_suggestion(collection:any,query:str,customer_utterance:str,n_results:int=3)->str:
     suggestions = ""
-    for doc in response["documents"]:
-        for line in doc:
-            suggestions += line + "\n\n"
+    response1 = collection.query(query_texts=[query],n_results=n_results)
+    response2 = collection.query(query_texts=[customer_utterance],n_results=n_results)
+    for i in range(n_results):
+        suggestions += response1["documents"][0][i] + "\n\n"
+        suggestions += response2["documents"][0][i] + "\n\n"
     return suggestions
-def play_audio_with_interruption(audio: AudioSegment, recognizer: sr.Recognizer, microphone: sr.Microphone) -> Tuple[bool, str]:
-    def play_audio():
-        play(audio)
-
-    def listen_to_user():
-        return transcribe(recognizer, microphone)
-
-    with concurrent.futures.ThreadPoolExecutor() as executor:
-        audio_task = executor.submit(play_audio)
-        listen_task = executor.submit(listen_to_user)
-
-        while not listen_task.done():
-            if audio_task.done():
-                break
-            if listen_task.running():
-                transcription = listen_task.result()
-                if transcription:
-                    audio_task.cancel()
-                    return True, transcription
-    return False, ""
-
 def main():
     load_dotenv()
     OPEN_API_KEY = os.getenv("OPENAI_API_KEY")
@@ -165,25 +125,25 @@ def main():
     collection = create_chroma_client()
 
     while True:
-        transcription = transcribe(recognizer, microphone)
-        if transcription:
-            print("You said:", transcription) 
-            query += "Customer: " + transcription + "\n"
-            current_conversation += "Customer: " + transcription + "\n"
-            suggestion = get_suggestion(collection,query)
+        #transcription = transcribe(recognizer, microphone)
+        #if transcription:
+        if True:
+            #read input from user
+            print("Type:")
+            transcription = input().strip()
+            print("You said:", transcription)
+            customer_utterance = "Customer: " + transcription + "\n"
+            query += customer_utterance
+            current_conversation += customer_utterance
+            suggestion = get_suggestion(collection,query,customer_utterance)
             prompt = generate_prompt(customer_address, price,current_conversation,suggestion)
             print(prompt)
             response = get_response(prompt).strip()
             agent_response = response.split(":")[1].strip()
-            audio_response = talk(agent_response)
-            interrupted, new_transcription = play_audio_with_interruption(audio_response, recognizer, microphone)
-            if interrupted:
-                transcription = new_transcription
-                print("You interrupted and said:", transcription)
-            else:
-                current_conversation += response + "\n"
-                query = response + "\n"
-                prompt = generate_prompt(customer_address, price,current_conversation,suggestion)
+            talk(agent_response)
+            current_conversation += response + "\n"
+            query = response + "\n"
+            prompt = generate_prompt(customer_address, price,current_conversation,suggestion)
 
 if __name__ == "__main__":
     main()

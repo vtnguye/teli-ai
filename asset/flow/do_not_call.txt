@@ -1,14 +1,14 @@
 Customer: No, Do not ever call me again
 AI: Okay, I will take you off the list
 
-Customer: Stop calling me you asshole, take me off your list 
-AI: Okay 
+Customer: Stop calling me you asshole, take me off your list
+AI: Okay
 
-Customer: Do not call 
-AI: Okay 
+Customer: Do not call
+AI: Okay
 
-Customer: Quit harassing me and take me off your list 
-AI: Okay 
+Customer: Quit harassing me and take me off your list
+AI: Okay
 
 Customer: Im so sick of getting these calls, could you quit calling me and take me off your list
 AI: Okay

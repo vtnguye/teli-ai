@@ -14,6 +14,7 @@ def prepare_dataset(dataset_path):
         if file.endswith(".txt"):  # Loop through all files with .txt extension
             with open(os.path.join(dataset_path, file), "r") as f:
                 content = f.read().split("\n\n")  # Split content by two newlines
+                content = [x.strip() for x in content]
                 conversations.extend(content)
     
     return conversations
@@ -31,9 +32,12 @@ def main():
     CHROMA_CLIENT = chromadb.Client(Settings(
         chroma_db_impl="duckdb+parquet", persist_directory="./chromadb"))
     EMBEDDINGS_MODEL = "text-embedding-ada-002"
-    #openai_ef = embedding_functions.OpenAIEmbeddingFunction(api_key=OPEN_API_KEY,model_name=EMBEDDINGS_MODEL)
+    openai_ef = embedding_functions.OpenAIEmbeddingFunction(
+                api_key=OPEN_API_KEY,
+                model_name=EMBEDDINGS_MODEL
+            )
     sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(model_name="all-MiniLM-L6-v2")
-    collection = CHROMA_CLIENT.get_or_create_collection(name="teli-ai",embedding_function=sentence_transformer_ef)
+    collection = CHROMA_CLIENT.get_or_create_collection(name="teli-ai",embedding_function=openai_ef)
     TESTING_RESULTS_DIR = "asset/flow/"
     conversations = prepare_dataset(TESTING_RESULTS_DIR)
     ingest_data(collection,conversations)
