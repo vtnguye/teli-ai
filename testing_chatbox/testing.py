@@ -63,7 +63,7 @@ def get_response(prompt:str):
     return response["choices"][0]["text"]
 
 def talk(utterance:str):
-    url = "https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM/stream"
+    url = "https://api.elevenlabs.io/v1/text-to-speech/2FlqoZcAHYlZYCTgk84G/stream"
     headers = {
         "Accept": "audio/mpeg",
         "Content-Type": "application/json",
@@ -95,60 +95,19 @@ If yes, ask for the property's condition. Ask for the property's renovation. Ask
 Then, ask for the price they want to sell. If the price is way higher than the estimated price, ask them if they're willing to negotiate to down to the estimated price. 
 If the price is lower or equal to the estimated price, set up an appointment with them. Any other scenarios besides those listed should greet and end the call.
 Based on the most relevant response suggestion to create respond.
-
 Response suggestion:
 {suggestion}
 Current conversation:
 {current_conversation}""".format(customer_address=customer_address, price=price,current_conversation=current_conversation,suggestion=suggestion,)
     return prompt
-def play_audio_with_interruption(audio: AudioSegment, recognizer: sr.Recognizer, microphone: sr.Microphone) -> Tuple[bool, str]:
-    def play_audio():
-        play(audio)
 
-    def listen_to_user():
-        return transcribe(recognizer, microphone)
-
-    with concurrent.futures.ThreadPoolExecutor() as executor:
-        audio_task = executor.submit(play_audio)
-        listen_task = executor.submit(listen_to_user)
-
-        while not listen_task.done():
-            if audio_task.done():
-                break
-            if listen_task.running():
-                transcription = listen_task.result()
-                if transcription:
-                    audio_task.cancel()
-                    return True, transcription
-    return False, ""
-
-def get_suggestion(collection:any,query:str)->str:
-    response = collection.query(query_texts=[query],n_results=3)
+def get_suggestion(collection:any,queries:list)->str:
+    response = collection.query(query_texts=queries,n_results=2)
     suggestions = ""
     for doc in response["documents"]:
         for line in doc:
             suggestions += line + "\n\n"
     return suggestions
-def play_audio_with_interruption(audio: AudioSegment, recognizer: sr.Recognizer, microphone: sr.Microphone) -> Tuple[bool, str]:
-    def play_audio():
-        play(audio)
-
-    def listen_to_user():
-        return transcribe(recognizer, microphone)
-
-    with concurrent.futures.ThreadPoolExecutor() as executor:
-        audio_task = executor.submit(play_audio)
-        listen_task = executor.submit(listen_to_user)
-
-        while not listen_task.done():
-            if audio_task.done():
-                break
-            if listen_task.running():
-                transcription = listen_task.result()
-                if transcription:
-                    audio_task.cancel()
-                    return True, transcription
-    return False, ""
 
 def main():
     load_dotenv()
@@ -160,7 +119,8 @@ def main():
     price = "one hundred thousand"
     current_conversation = ""
     suggestion = ""
-    query = ""
+    query1 = ""
+    query2 = ""
     prompt = generate_prompt(customer_address, price)
     collection = create_chroma_client()
 
@@ -168,22 +128,20 @@ def main():
         transcription = transcribe(recognizer, microphone)
         if transcription:
             print("You said:", transcription) 
-            query += "Customer: " + transcription + "\n"
+            query1 += "Customer: " + transcription + "\n"
+            query2 = "Customer: " + transcription + "\n"
+            queries = [query1,query2]
+
             current_conversation += "Customer: " + transcription + "\n"
-            suggestion = get_suggestion(collection,query)
+            suggestion = get_suggestion(collection,queries)
             prompt = generate_prompt(customer_address, price,current_conversation,suggestion)
             print(prompt)
             response = get_response(prompt).strip()
             agent_response = response.split(":")[1].strip()
             audio_response = talk(agent_response)
-            interrupted, new_transcription = play_audio_with_interruption(audio_response, recognizer, microphone)
-            if interrupted:
-                transcription = new_transcription
-                print("You interrupted and said:", transcription)
-            else:
-                current_conversation += response + "\n"
-                query = response + "\n"
-                prompt = generate_prompt(customer_address, price,current_conversation,suggestion)
+            current_conversation += response + "\n"
+            query1 = response + "\n"
+            prompt = generate_prompt(customer_address, price,current_conversation,suggestion)
 
 if __name__ == "__main__":
     main()
