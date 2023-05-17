@@ -13,6 +13,7 @@ from chromadb.config import Settings
 import concurrent.futures
 from typing import Tuple
 
+
 def create_chroma_client():
     OPEN_API_KEY = os.getenv("OPENAI_API_KEY")
     EMBEDDINGS_MODEL = "text-embedding-ada-002"
@@ -100,26 +101,6 @@ Response suggestion:
 Current conversation:
 {current_conversation}""".format(customer_address=customer_address, price=price,current_conversation=current_conversation,suggestion=suggestion,)
     return prompt
-def play_audio_with_interruption(audio: AudioSegment, recognizer: sr.Recognizer, microphone: sr.Microphone) -> Tuple[bool, str]:
-    def play_audio():
-        play(audio)
-
-    def listen_to_user():
-        return transcribe(recognizer, microphone)
-
-    with concurrent.futures.ThreadPoolExecutor() as executor:
-        audio_task = executor.submit(play_audio)
-        listen_task = executor.submit(listen_to_user)
-
-        while not listen_task.done():
-            if audio_task.done():
-                break
-            if listen_task.running():
-                transcription = listen_task.result()
-                if transcription:
-                    audio_task.cancel()
-                    return True, transcription
-    return False, ""
 
 def get_suggestion(collection:any,queries:list)->str:
     response = collection.query(query_texts=queries,n_results=2)
@@ -128,24 +109,6 @@ def get_suggestion(collection:any,queries:list)->str:
         for line in doc:
             suggestions += line + "\n\n"
     return suggestions
-def play_audio_with_interruption(audio: AudioSegment, recognizer: sr.Recognizer, microphone: sr.Microphone) -> Tuple[bool, str]:
-    def play_audio():
-        play(audio)
-    def listen_to_user():
-        return transcribe(recognizer, microphone)
-    with concurrent.futures.ThreadPoolExecutor() as executor:
-        audio_task = executor.submit(play_audio)
-        listen_task = executor.submit(listen_to_user)
-
-        while not listen_task.done():
-            if audio_task.done():
-                break
-            if listen_task.running():
-                transcription = listen_task.result()
-                if transcription:
-                    audio_task.cancel()
-                    return True, transcription
-    return False, ""
 
 def main():
     load_dotenv()
@@ -177,17 +140,10 @@ def main():
             response = get_response(prompt).strip()
             agent_response = response.split(":")[1].strip()
             audio_response = talk(agent_response)
-            # interrupted, new_transcription = play_audio_with_interruption(audio_response, recognizer, microphone)
-            # if interrupted:
-            #     transcription = new_transcription
-            #     print("You interrupted and said:", transcription)
-            #else:
-            if True:
-                current_conversation += response + "\n"
-                query1 = response + "\n"
-                prompt = generate_prompt(customer_address, price,current_conversation,suggestion)
+            current_conversation += response + "\n"
+            query1 = response + "\n"
+            prompt = generate_prompt(customer_address, price,current_conversation,suggestion)
                 
 
 if __name__ == "__main__":
     main()
-

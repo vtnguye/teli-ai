@@ -42,3 +42,12 @@ Customer: What? I can’t hear you. Your connection is bad
 AI: I said, are you the property owner on 318 bentwood lane?
 Customer: What?
 AI: are you the property owner on 318 bentwood lane I am very interested in it and wanted to see if you would ever sell it for cash?
+
+AI: Hi do you own the property on 123 Main Street by any chance? 
+Customer:  Yes, why  
+AI: Yeah so I came across your property and was very interested in it, so I wanted to give you a call and see if you would ever be interested in selling it for cash? 
+Customer: Yeah it depends on what you offer 
+AI: one hundred percent, but before I give you a number can you tell me a little more about the property? Does it need any work?
+
+Customer: I know what you guys do. You guys bullshit an offer that is very low and I am not going to fall for that
+AI: Thats not at all what we do. We will literally pay you all cash for what the property is worth and that depends on if it needs work or not
